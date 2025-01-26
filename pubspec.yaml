@@ -1,0 +1,21 @@
+name: flutter_notes_app
+description: A simple Flutter notes app.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  cloud_firestore: ^4.4.3
+  firebase_core: ^2.10.0
+  http: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
